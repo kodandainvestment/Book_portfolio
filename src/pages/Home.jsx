@@ -27,13 +27,13 @@ function Home() {
                 
                 {/* Main Heading */}
                 <div className='space-y-2'>
-                  <h1 className='font-serif text-2xl lg:text-5xl font-bold text-gray-800 leading-tight'>
+                  <h1 className='font-serif text-3xl lg:text-5xl font-bold text-gray-800 leading-tight'>
                     Your Practical Guide
                   </h1>
-                  <h2 className='font-serif text-2xl lg:text-5xl font-bold text-purple-400 leading-tight'>
+                  <h2 className='font-serif text-3xl lg:text-5xl font-bold text-purple-400 leading-tight'>
                     to Building Wealth
                   </h2>
-                  <h3 className='font-serif text-2xl lg:text-5xl font-bold text-yellow-500 leading-tight'>
+                  <h3 className='font-serif text-3xl lg:text-5xl font-bold text-yellow-500 leading-tight'>
                     Smartly
                   </h3>
                 </div>
