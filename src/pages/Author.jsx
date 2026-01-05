@@ -72,14 +72,14 @@ function Author() {
             </div>
             
             {/* Stats Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4">
               {stats.map((stat, index) => (
                 <div key={index} className="flex items-center bg-white p-4 rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-purple-400">
                   <div className="w-8 h-8 bg-purple-100 rounded-md flex items-center justify-center mr-4">
-                    <stat.icon className="text-purple-600 text-xl" />
+                    <stat.icon className="text-purple-600 text-lg md:text-xl" />
                   </div>
                   <div>
-                    <div className="font-serif text-lg text-gray-800">{stat.title}</div>
+                    <div className="font-serif text-md md:text-lg text-gray-800">{stat.title}</div>
                     <div className="text-sm text-gray-600">{stat.subtitle}</div>
                   </div>
                 </div>

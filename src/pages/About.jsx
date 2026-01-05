@@ -139,8 +139,8 @@ function About() {
               </div>
             </div>
           </div>
-          
-          <div className='bg-gray-200 p-4 rounded-xl'>
+          {/* mid block  */}
+          <div className='bg-gray-200 p-4 rounded-xl h-[220px] sm:h-[160px]'>
             <p className='text-black italic text-lg mb-3'>"The principles in this book helped me go from ₹50,000 savings to my first crore in just 4 years."</p>
             <div className='flex items-center'>
               <div className='w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center mr-3'>

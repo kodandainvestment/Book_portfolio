@@ -23,35 +23,43 @@ function Footer() {
                             <div className='w-8 h-8 bg-purple-600 rounded flex items-center justify-center'>
                                 <FaBook className='text-white' />
                             </div>
-                            <h2 className='text-xl font-bold'>One Crore</h2>
+                            <h2 className='font-serif text-xl font-bold'>One Crore</h2>
                         </div>
                         <p className='text-gray-300 mb-4 text-sm leading-relaxed'>
                             Your practical guide to building wealth smartly. Join thousands of readers who have transformed their financial future.
                         </p>
                         <div className='flex gap-3'>
-                            <FaTwitter className='text-gray-400 hover:text-purple-500 cursor-pointer' />
-                            <FaLinkedin className='text-gray-400 hover:text-purple-500 cursor-pointer' />
-                            <FaInstagram className='text-gray-400 hover:text-purple-500 cursor-pointer' />
-                            <FaYoutube className='text-gray-400 hover:text-purple-500 cursor-pointer' />
+                            <div className='bg-gray-700 p-2 rounded-lg hover:bg-purple-500 cursor-pointer'>
+                                <FaTwitter className='text-gray-400 hover:text-white' />
+                            </div>
+                            <div className='bg-gray-700 p-2 rounded-lg hover:bg-purple-500 cursor-pointer'>
+                                <FaLinkedin className='text-gray-400 hover:text-white' />
+                            </div>
+                            <div className='bg-gray-700 p-2 rounded-lg hover:bg-purple-500 cursor-pointer'>
+                                <FaInstagram className='text-gray-400 hover:text-white' />
+                            </div>
+                            <div className='bg-gray-700 p-2 rounded-lg hover:bg-purple-500 cursor-pointer'>
+                                <FaYoutube className='text-gray-400 hover:text-white' />
+                            </div>
                         </div>
                     </div>
 
                     {/* Quick Links */}
                     <div>
-                        <h3 className='text-lg font-semibold mb-4'>Quick Links</h3>
+                        <h3 className='font-serif text-lg font-semibold mb-4'>Quick Links</h3>
                         <ul className='space-y-2 text-sm'>
-                            <li><a href='#' className='text-gray-300 hover:text-purple-500'>Home</a></li>
-                            <li><a href='#' className='text-gray-300 hover:text-purple-500'>About the Book</a></li>
-                            <li><a href='#' className='text-gray-300 hover:text-purple-500'>Author</a></li>
-                            <li><a href='#' className='text-gray-300 hover:text-purple-500'>Chapters</a></li>
-                            <li><a href='#' className='text-gray-300 hover:text-purple-500'>Reviews</a></li>
-                            <li><a href='#' className='text-gray-300 hover:text-purple-500'>Buy Now</a></li>
+                            <li><button onClick={() => document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })} className='text-gray-300 hover:text-purple-500 text-left'>Home</button></li>
+                            <li><button onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })} className='text-gray-300 hover:text-purple-500 text-left'>About the Book</button></li>
+                            <li><button onClick={() => document.getElementById('author')?.scrollIntoView({ behavior: 'smooth' })} className='text-gray-300 hover:text-purple-500 text-left'>Author</button></li>
+                            <li><button onClick={() => document.getElementById('toc')?.scrollIntoView({ behavior: 'smooth' })} className='text-gray-300 hover:text-purple-500 text-left'>Chapters</button></li>
+                            <li><button onClick={() => document.getElementById('reviews')?.scrollIntoView({ behavior: 'smooth' })} className='text-gray-300 hover:text-purple-500 text-left'>Reviews</button></li>
+                            <li><button onClick={() => document.getElementById('buynow')?.scrollIntoView({ behavior: 'smooth' })} className='text-gray-300 hover:text-purple-500 text-left'>Buy Now</button></li>
                         </ul>
                     </div>
 
                     {/* Contact */}
                     <div>
-                        <h3 className='text-lg font-semibold mb-4'>Contact</h3>
+                        <h3 className='font-serif text-lg font-semibold mb-4'>Contact</h3>
                         <div className='space-y-3 text-sm'>
                             <div className='flex items-center gap-2'>
                                 <MdEmail className='text-purple-400' />
@@ -70,7 +78,7 @@ function Footer() {
 
                     {/* Newsletter */}
                     <div>
-                        <h3 className='text-lg font-semibold mb-4'>Stay Updated</h3>
+                        <h3 className='font-serif text-lg font-semibold mb-4'>Stay Updated</h3>
                         <p className='text-gray-300 text-sm mb-4'>
                             Get free wealth-building tips and updates on new releases.
                         </p>

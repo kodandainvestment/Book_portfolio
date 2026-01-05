@@ -18,70 +18,70 @@ function TOC() {
   const chapters = [
     { 
       id: '01', 
-      title: 'The Wealth Mindset', 
+      title: 'The rich mindset', 
       description: 'Transform your thinking about money and success',
       icon: <IoBulbOutline className="text-2xl" />,
       bgColor: 'bg-purple-500'
     },
     { 
       id: '02', 
-      title: 'Setting Financial Goals', 
+      title: 'Financial planning', 
       description: 'Create a clear roadmap to your first crore',
       icon: <LuTarget className="text-2xl" />,
       bgColor: 'bg-yellow-500'
     },
     { 
       id: '03', 
-      title: 'Income Multiplication', 
+      title: 'Debt management', 
       description: 'Strategies to increase your earning potential',
       icon: <FaArrowTrendUp className="text-2xl" />,
       bgColor: 'bg-purple-500'
     },
     { 
       id: '04', 
-      title: 'Smart Saving Habits', 
+      title: '7 Source of Income', 
       description: 'Build the foundation of lasting wealth',
       icon: <MdOutlineSavings className="text-2xl" />,
       bgColor: 'bg-yellow-500'
     },
     { 
       id: '05', 
-      title: 'Investment Fundamentals', 
+      title: 'How to run business', 
       description: 'Master the basics of growing your money',
       icon: <VscGraph className="text-2xl" />,
       bgColor: 'bg-purple-500'
     },
     { 
       id: '06', 
-      title: 'Real Estate Secrets', 
+      title: 'Wealth Creation', 
       description: 'Leverage property for wealth creation',
       icon: <FaRegBuilding className="text-2xl" />,
       bgColor: 'bg-yellow-500'
     },
     { 
       id: '07', 
-      title: 'Risk & Protection', 
+      title: 'Investments', 
       description: 'Safeguard your wealth for generations',
       icon: <IoShieldHalf className="text-2xl" />,
       bgColor: 'bg-purple-500'
     },
     { 
       id: '08', 
-      title: 'Tax Optimization', 
+      title: 'Networking', 
       description: 'Keep more of what you earn legally',
       icon: <CiCalculator1 className="text-2xl" />,
       bgColor: 'bg-yellow-500'
     },
     { 
       id: '09', 
-      title: 'Scaling Your Wealth', 
+      title: 'Leverage ', 
       description: 'From one crore to financial freedom',
       icon: <FiTrendingUp className="text-2xl" />,
       bgColor: 'bg-purple-500'
     },
     { 
       id: '10', 
-      title: 'Legacy Planning', 
+      title: 'End Goal', 
       description: 'Create lasting wealth for your family',
       icon: <FiAward className="text-2xl" />,
       bgColor: 'bg-yellow-500'
@@ -103,7 +103,7 @@ function TOC() {
             chapters.map((chapter, index) => (
               <div
                 key={index}
-                className='bg-white rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer group hover:shadow-yellow-400'
+                className={`bg-white rounded-2xl p-3 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer group ${chapter.bgColor === 'bg-yellow-500' ? 'hover:shadow-yellow-400' : 'hover:shadow-purple-400'}`}
               >
                 <div className='flex items-center gap-3'>
                   <div className={`${chapter.bgColor} rounded-xl p-3 text-white flex-shrink-0`}>
