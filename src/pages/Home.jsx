@@ -17,17 +17,17 @@ function Home() {
     <div id="home" className='bg-gradient-to-br from-purple-100 via-white to-purple-50 mt-16'>
       <div className='relative min-h-screen flex items-center justify-center overflow-hidden'>
         {/* Decorative Elements */}
-        <div className='absolute top-20 left-10 text-yellow-400 text-4xl animate-pulse hidden md:block'>⭐</div>
+        {/* <div className='absolute top-20 left-10 text-yellow-400 text-4xl animate-pulse hidden md:block'>⭐</div>
         <div className='absolute top-32 right-20 text-yellow-400 text-3xl animate-pulse hidden lg:block'>⭐</div>
         <div className='absolute bottom-40 left-20 text-yellow-400 text-5xl animate-pulse hidden md:block'>⭐</div>
         <div className='absolute top-1/2 left-5 text-yellow-400 text-3xl animate-pulse hidden sm:block'>⭐</div>
-        <div className='absolute bottom-1/3 right-10 text-yellow-400 text-4xl animate-pulse hidden md:block'>⭐</div>
+        <div className='absolute bottom-1/3 right-10 text-yellow-400 text-4xl animate-pulse hidden md:block'>⭐</div> */}
 
         {/* Mobile Decorative Elements */}
-        <div className='absolute top-16 right-4 text-yellow-400 text-2xl animate-pulse sm:hidden'>⭐</div>
+        {/* <div className='absolute top-16 right-4 text-yellow-400 text-2xl animate-pulse sm:hidden'>⭐</div>
         <div className='absolute top-52 right-40 text-yellow-400 text-2xl animate-pulse sm:hidden'>⭐</div>
         <div className='absolute top-54 right-6 text-yellow-400 text-2xl animate-pulse sm:hidden'>⭐</div>
-        <div className='absolute left-2 text-yellow-400 text-2xl animate-pulse sm:hidden'>⭐</div>
+        <div className='absolute left-2 text-yellow-400 text-2xl animate-pulse sm:hidden'>⭐</div> */}
 
         <div className='container px-6 py-8 z-10'>
           {/* hero section */}
