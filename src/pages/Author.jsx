@@ -1,4 +1,5 @@
 import { FaBook, FaGlobe, FaUsers, FaTrophy } from 'react-icons/fa'
+import chahatImg from '../images/chahat-sir4.png'
 
 function Author() {
   const stats = [
@@ -23,7 +24,7 @@ function Author() {
             <div className="relative bg-white rounded-2xl shadow-lg z-10 h-fit">
               {/* Author Image */}
               <img 
-                src="src/images/chahat-sir4.png" 
+                src={chahatImg} 
                 alt="Mr. Chahat Tiwari" 
                 className="w-full h-[370px] sm:h-[550px] object-cover rounded-2xl"
               />
