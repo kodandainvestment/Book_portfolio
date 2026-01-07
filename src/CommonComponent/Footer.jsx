@@ -23,7 +23,7 @@ function Footer() {
                             <div className='w-8 h-8 bg-purple-600 rounded flex items-center justify-center'>
                                 <FaBook className='text-white' />
                             </div>
-                            <h2 className='font-serif text-xl font-bold'>One Crore</h2>
+                            <h2 className='font-serif text-xl font-bold'>1 Crore</h2>
                         </div>
                         <p className='text-gray-300 mb-4 text-sm leading-relaxed'>
                             Your practical guide to building wealth smartly. Join thousands of readers who have transformed their financial future.
